@@ -4,6 +4,7 @@ import random
 
 computed = [0, 1]
 
+'''Implement the Fermat Prime Test'''
 def FermatPrimeTest(number):
     ''' if number != 1 '''
     if (number > 1):
