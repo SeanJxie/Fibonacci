@@ -1,7 +1,5 @@
 import random
 
-"""YES it is UberSeal from reddit."""
-
 computed = [0, 1]
 
 '''Implement the Fermat Prime Test'''
