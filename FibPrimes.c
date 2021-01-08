@@ -6,7 +6,7 @@
 #define MAX_TERMS 94
 
 typedef unsigned long long LLU; // From limits.h, ULLONG_MAX: 18446744073709551615.
-// 12200160415121876738 is the largest fibonacci number before ULLONG_MAX at term #93
+// 12200160415121876738 is the largest fibonacci number before ULLONG_MAX at term #93.
 
 int isprime(LLU n) {
      if (n <= 1) { // 1 or less
