@@ -19,7 +19,7 @@ void bint_init(BINT* n, int sgn, char* digs);
 void bint_cpy(BINT* dst, BINT* src);
 //int  bint_len(BINT* n); OLD
 void bint_add(BINT* a, BINT* b, BINT* dst);
-void bint_mul(BINT* a, BINT* b, BINT* dst);
+//void bint_mul(BINT* a, BINT* b, BINT* dst);
 void bint_put(BINT* n, int nl);
 void bint_putraw(BINT* n, int nl);
 void bint_writefile(FILE* fptr, int t, BINT* n, int nl);

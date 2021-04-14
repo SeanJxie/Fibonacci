@@ -46,11 +46,6 @@ void bint_add(BINT* a, BINT* b, BINT* dst) {
     dst->_d[mlen] = carr;
 }
 
-void bint_mul(BINT* a, BINT* b, BINT* dst) {
-
-
-}
-
 void bint_put(BINT* n, int nl) {
     if (n->_s == -1) { printf("-"); }
     for (int i = n->_l - 1; i >= 0; i--) {
